@@ -1,0 +1,14 @@
+{
+  "name": "Playlist by Genre",
+  "version": "1.0.0",
+  "slug": "playlist_by_genre",
+  "description": "Crée automatiquement des playlists par genre à partir des métadonnées audio.",
+  "startup": "once",
+  "boot": "manual",
+  "options": {},
+  "schema": {},
+  "host_network": true,
+  "privileged": ["READ", "WRITE"],
+  "map": ["media:rw"],
+  "image": "ghcr.io/home-assistant/{arch}-addon-playlist-by-genre"
+}
