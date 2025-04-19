@@ -10,5 +10,5 @@
   "host_network": true,
   "privileged": ["READ", "WRITE"],
   "map": ["media:rw"],
-  "image": "ghcr.io/home-assistant/{arch}-addon-playlist-by-genre"
+  "image": "image": "local/playlist_by_genre"
 }
