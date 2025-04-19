@@ -10,5 +10,5 @@
   "host_network": true,
   "privileged": ["READ", "WRITE"],
   "map": ["media:rw"],
-  "image": "image": "local/playlist_by_genre"
+  "image": "local/playlist_by_genre"
 }
